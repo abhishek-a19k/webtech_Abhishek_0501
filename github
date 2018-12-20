@@ -1,0 +1,27 @@
+1. git config --global user.name"
+								[ whole thorughout the system it will 		set the user]
+2. git config --global user.email"abhishek.a19k@gmail.com"
+
+3. git config --list
+
+4.choose the webtech folder
+	-echo # Webtech >> README.md
+	-nano README.md //write content
+		ctrl+O and ctrl+X
+	-cat README.md
+
+	- git init {initialize git repo in our local server}
+
+	-git add README.md {add one file}
+	-git add * { for all repo to upload}
+
+	-git commit -m "First Commit"
+
+	- git remote add origin https://github.com/abhishek-a19k/webtech_Abhishek_0501.git
+
+	-git puch -u origin master
+
+
+to rollback
+	git reset --hard <tag/branch/commit id>
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <script type="text/javascript">
+        function validateForm() {
+            var name = document.getElementById('name');
+            var mobile = document.getElementById('mobile');
+            
+            if (name == '' || name == null) {
+                alert('Name cannot be empty');
+                return false;
+            }
+            if (mobile == '' || mobile == null) {
+                alert('Mobile no. cannot be empty');
+                return false;
+            }
+            if (mobile.length >= 9) {
+                alert('Mobile no should be atleast 9 digits');
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <a href="visitors.php"> All Visitors </a>
+    <form action="visitors.php" method="POST" onsubmit="return validateForm()">
+        <table>
+            <tr>
+                <td> Name </td>
+                <td> <input type="text" name="name" id='name'> </td>
+            </tr>
+            <tr>
+                <td> Mobile No </td>
+                <td> <input type="number" name="mobile" id='mobile'> </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

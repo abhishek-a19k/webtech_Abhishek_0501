@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address[
+	<!ELEMENT address (name,company)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT company (#PCDATA)>
+]>
+
+<address>
+	<name>Web</name>
+	<company>Technology</company>
+</address>

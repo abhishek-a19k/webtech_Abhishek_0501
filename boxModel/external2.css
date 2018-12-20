@@ -1,0 +1,43 @@
+*{
+
+	margin:0px;
+	padding:0px;
+
+}
+.wrapper{
+	width:980px;
+
+	margin:auto;
+}
+div{
+	border: 1px solid black;
+}	
+.header{
+	margin: 10px ;
+	height:100px;
+}
+
+.content{
+	height:350px;
+	margin:20px 10px;
+	padding:10px;
+
+}
+
+.left{
+
+	float:left;
+	height: 350px;
+	width:460;
+}
+.right{
+	height:350px;
+	width:460px;
+	float:right;
+}
+.footer{
+	height:100px;
+	width:960px;
+	margin:10px;
+
+}
